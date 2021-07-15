@@ -595,12 +595,12 @@ textarea.input {
 
 .banner-body {
   position: absolute;
-  left: 2.5%;
+  left: 10.5%;
   top: 8%;
 }
 
 .banner-body__subtitle {
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -783,9 +783,9 @@ textarea.input {
 .range-slider p {
   position: absolute;
   left: 25px;
-  top: 13px;
+  top: 16px;
   color: #222222;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
 }
 
@@ -849,17 +849,16 @@ textarea.input {
   display: inline-block;
   position: absolute;
   right: 10px;
-  top: 12px;
+  top: 16px;
   color: #0972C8;
-  line-height: 20px;
   text-align: center;
   border-radius: 3px;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
 }
 
 .range-slider__value small {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
   color: grey;
 }
@@ -867,14 +866,14 @@ textarea.input {
 .range-slider__value_two {
   position: absolute;
   right: 10px;
-  top: 12px;
+  top: 16px;
   font-size: 23px;
   font-weight: 500;
   color: #0972C8;
 }
 
 .range-slider__value_two small {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
   color: grey;
 }
@@ -882,14 +881,14 @@ textarea.input {
 .range-slider__value_three {
   position: absolute;
   right: 10px;
-  top: 12px;
-  font-size: 23px;
+  top: 16px;
+  font-size: 21px;
   font-weight: 500;
   color: #0972C8;
 }
 
 .range-slider__value_three small {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
   color: grey;
 }
@@ -932,9 +931,9 @@ textarea.input {
 .range-slider-two p {
   position: absolute;
   left: 25px;
-  top: 13px;
+  top: 16px;
   color: #222222;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
 }
 
@@ -955,9 +954,9 @@ textarea.input {
 .range-slider-three p {
   position: absolute;
   left: 25px;
-  top: 13px;
+  top: 16px;
   color: #222222;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
 }
 
@@ -1048,8 +1047,10 @@ textarea.input {
 }
 
 .body-wish__text p {
+  padding: 0px 20px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 38px;
   color: #FFFDFD;
 }
 
@@ -1061,9 +1062,11 @@ textarea.input {
 }
 
 .body-wish__btn a {
-  font-size: 30px;
-  color: #222222;
+  font-size: 20px;
+  line-height: 40px;
   font-weight: 700;
+  letter-spacing: -0.005em;
+  color: #222222;
   padding: 30px 30px;
   background-color: #C6D645;
   border-radius: 50px;
@@ -1131,9 +1134,10 @@ textarea.input {
 }
 
 .sig-test-body__text p {
-  color: #222222;
   font-size: 21px;
+  line-height: 30px;
   font-weight: 400;
+  color: #222222;
 }
 
 .interview {
@@ -1322,6 +1326,16 @@ textarea.input {
 
 .item-indicators {
   max-width: 346px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .item-indicators__wrapper {
@@ -1341,9 +1355,11 @@ textarea.input {
 }
 
 .item-indicators__title h6 {
-  font-size: 24px;
+  font-size: 29px;
+  line-height: 38px;
   font-weight: 700;
-  color: #0972C8;
+  letter-spacing: -0.025em;
+  color: #0a72c8;
 }
 
 .item-indicators__text {
@@ -1354,8 +1370,9 @@ textarea.input {
 
 .item-indicators__text p {
   font-size: 21px;
-  font-weight: 400;
-  line-height: 22px;
+  line-height: 31px;
+  font-weight: 500;
+  color: #222222;
 }
 
 @media (min-width: 991.98px) {
@@ -1407,6 +1424,11 @@ textarea.input {
 
   .banner-body {
     top: 4%;
+    left: 2.5%;
+  }
+
+  .banner-body__subtitle {
+    padding: 0px 0px 0px 0px;
   }
 
   .pig-body__img img {
@@ -1514,6 +1536,7 @@ textarea.input {
     font-size: 19px;
     max-width: 159px;
     left: 10px;
+    top: 10px;
   }
 }
 
